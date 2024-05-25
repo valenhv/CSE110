@@ -1,0 +1,23 @@
+# Student: Valentina Hernandez Vera
+
+print('Please enter the following information:')
+first = input('First name: ')
+last = input('Last name: ')
+email = input('Email address: ')
+phone = input('Phone number: ')
+job = input('Job title: ')
+id_no = input('ID Number: ')
+hair = input('Hair color: ')
+eye = input('Eye color: ')
+month = input('Starting Month: ')
+train = input('Completed additional training?: ')
+
+print('\nThe ID Card is:')
+print('----------------------------------------')
+print(f'{last.upper()}, {first.capitalize()}')
+print(job.title())
+print(f'ID: {id_no}')
+print(f'\n{email.lower()}\n{phone}')
+print(f'\nHair: {hair.capitalize():15} Eyes: {eye.capitalize()}')
+print(f'Month: {month.capitalize():14} Training: {train.capitalize()}')
+print("----------------------------------------")
